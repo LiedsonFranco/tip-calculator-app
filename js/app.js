@@ -15,7 +15,7 @@ function reset(){
 }
 
 function select_tip(value=0,btn){
-    if(parseFloat(number_of_people_tag.value) <= 0 || parseFloat(bill_tag.value) ){
+    if(parseFloat(number_of_people_tag.value) <= 0 || parseFloat(bill_tag.value <= 0) ){
         return -1
     }
     if(remove_tip){
