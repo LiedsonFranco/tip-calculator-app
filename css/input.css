@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.selected{
+    @apply bg-Strong-cyan text-Very-dark-cyan hover:bg-Very-light-grayish-cyan border-Strong-cyan hover:border ease-in-out transition-all duration-100
+}
+.tip{
+    @apply bg-Very-dark-cyan text-white hover:bg-Light-grayish-cyan hover:text-Very-dark-cyan ease-in-out transition-all duration-100
+}

@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
+    extend:{
       colors: {
         "Strong-cyan": "hsl(172, 67%, 45%)",
         "Very-dark-cyan": "hsl(183, 100%, 15%)",
@@ -12,6 +13,8 @@ module.exports = {
         "white": "hsl(0, 0%, 100%)",
         "transparent": " hsl(183deg 100% 15% / 0%)"
       }
+
+    }
   },
   plugins: [],
 }
